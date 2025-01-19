@@ -1,0 +1,690 @@
+.one,
+.one * {
+  box-sizing: border-box;
+}
+.one {
+  background: #241731;
+  height: 3324px;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio {
+  color: #fffafa;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 21px;
+  top: 35px;
+  width: 114.02px;
+  height: 28.59px;
+}
+.home {
+  width: 66px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - -102px);
+  top: 40px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.home2 {
+  color: #fffefe;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.home3 {
+  width: 92px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - -252px);
+  top: 37px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.home4 {
+  width: 115px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - -446px);
+  top: 40px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.service-section {
+  background: #241731;
+  width: 1512px;
+  height: 839px;
+  position: absolute;
+  left: 0px;
+  top: 1763px;
+  overflow: hidden;
+}
+.our-services {
+  color: #0affbe;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 29px;
+}
+.digital {
+  width: 416px;
+  height: 514px;
+  position: absolute;
+  left: 540px;
+  top: 198px;
+}
+.rectangle-4 {
+  border-radius: 0px;
+  width: 98.08%;
+  height: 100%;
+  position: absolute;
+  right: 1.92%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.web {
+  width: 15.38%;
+  height: 12.45%;
+  position: absolute;
+  right: 38.7%;
+  left: 45.91%;
+  bottom: 82.88%;
+  top: 4.67%;
+  overflow: visible;
+}
+.digital-marketing {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  position: absolute;
+  right: 10.82%;
+  left: 18.03%;
+  width: 71.15%;
+  bottom: 70.62%;
+  top: 21.98%;
+  height: 7.39%;
+}
+.with-a-robust-background-in-digital-marketing-i-excel-at-crafting-strategies-that-drive-engagement-increase-brand-visibility-and-generate-leads-my-expertise-spans-various-aspects-of-digital-marketing-including-search-engine-optimization-seo-social-media-marketing-content-creation-and-paid-advertising-campaigns {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 8.41%;
+  width: 91.59%;
+  bottom: 20.04%;
+  top: 37.94%;
+  height: 42.02%;
+}
+.see {
+  width: 30.77%;
+  height: 8.17%;
+  position: absolute;
+  right: 34.38%;
+  left: 34.86%;
+  bottom: 8.17%;
+  top: 83.66%;
+}
+.rectangle-1 {
+  background: #0affbe;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #3997a6;
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  filter: blur(2.6px);
+}
+.see-more {
+  color: #29183e;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 7.03%;
+  left: 7.81%;
+  width: 85.16%;
+  bottom: 14.29%;
+  top: 16.67%;
+  height: 69.05%;
+}
+.ui {
+  width: 408px;
+  height: 514px;
+  position: absolute;
+  left: 46px;
+  top: 198px;
+}
+.rectangle-2 {
+  background: #29183e;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.ui-ux-desin {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  position: absolute;
+  right: 26.72%;
+  left: 26.72%;
+  width: 46.57%;
+  bottom: 69.65%;
+  top: 22.76%;
+  height: 7.59%;
+}
+.vector {
+  width: 13.73%;
+  height: 10.9%;
+  position: absolute;
+  right: 43.13%;
+  left: 43.14%;
+  bottom: 83.46%;
+  top: 5.64%;
+  overflow: visible;
+}
+.i-specialize-in-crafting-user-centric-designs-that-balance-aesthetics-and-functionality-my-experience-spans-various-industries-allowing-me-to-create-tailored-solutions-that-meet-diverse-user-needs {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 3.19%;
+  left: 3.43%;
+  width: 93.38%;
+  bottom: 34.05%;
+  top: 37.94%;
+  height: 28.02%;
+}
+.see2 {
+  width: 31.37%;
+  height: 8.17%;
+  position: absolute;
+  right: 37.25%;
+  left: 31.37%;
+  bottom: 10.89%;
+  top: 80.93%;
+}
+.web-develop {
+  width: 408px;
+  height: 514px;
+  position: absolute;
+  left: 1043px;
+  top: 198px;
+}
+.rectangle-3 {
+  background: #29183e;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.web-development {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  position: absolute;
+  right: 11.27%;
+  left: 16.18%;
+  width: 72.55%;
+  bottom: 71.6%;
+  top: 21.01%;
+  height: 7.39%;
+}
+.frame {
+  width: 15.69%;
+  height: 12.45%;
+  position: absolute;
+  right: 40.93%;
+  left: 43.38%;
+  bottom: 83.85%;
+  top: 3.7%;
+  overflow: visible;
+}
+.as-an-experienced-web-developer-i-specialize-in-building-responsive-and-high-performance-websites-i-am-proficient-in-a-range-of-programming-languages-and-frameworks-including-html-css-java-script-and-react-my-projects-span-various-industries-from-e-commerce-to-education-providing-tailored-solutions-that-meet-client-needs {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 3.19%;
+  left: 3.43%;
+  width: 93.38%;
+  bottom: 16.34%;
+  top: 36.96%;
+  height: 46.69%;
+}
+.see3 {
+  width: 31.37%;
+  height: 8.17%;
+  position: absolute;
+  right: 36.27%;
+  left: 32.35%;
+  bottom: 4.67%;
+  top: 87.16%;
+}
+.frame2 {
+  width: 60px;
+  height: 54px;
+  position: absolute;
+  left: 1438px;
+  top: 29px;
+  overflow: visible;
+}
+.frame-1 {
+  background: #241731;
+  border-radius: 40px;
+  width: 1512px;
+  height: 722px;
+  position: absolute;
+  left: 0px;
+  top: 2602px;
+  overflow: hidden;
+}
+.contact-us {
+  color: #0affbe;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 26px;
+}
+.rectangle-5 {
+  background: #29183e;
+  border-radius: 20px;
+  width: 450px;
+  height: 61px;
+  position: absolute;
+  left: 281px;
+  top: 130px;
+}
+.name {
+  color: #7621b3;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 298px;
+  top: 146px;
+}
+.rectangle-6 {
+  border-radius: 0px;
+  width: 450px;
+  height: 61px;
+  position: absolute;
+  left: 767px;
+  top: 130px;
+  overflow: visible;
+}
+.rectangle-7 {
+  background: #29183e;
+  border-radius: 20px;
+  width: 450px;
+  height: 61px;
+  position: absolute;
+  left: 281px;
+  top: 247px;
+}
+.rectangle-8 {
+  background: #29183e;
+  border-radius: 20px;
+  width: 450px;
+  height: 61px;
+  position: absolute;
+  left: 767px;
+  top: 246px;
+}
+.rectangle-9 {
+  background: #29183e;
+  border-radius: 20px;
+  width: 936px;
+  height: 287px;
+  position: absolute;
+  left: 281px;
+  top: 361px;
+}
+.address {
+  color: #7621b3;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 787px;
+  top: 145px;
+}
+.email-address {
+  color: #391d4d;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 787px;
+  top: 262px;
+}
+.email-address2 {
+  color: #7621b3;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 787px;
+  top: 262px;
+}
+.your-comment {
+  color: #7621b3;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 317px;
+  top: 380px;
+}
+.mobile-no {
+  color: #7621b3;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 298px;
+  top: 261px;
+}
+.frame3 {
+  width: 60px;
+  height: 54px;
+  position: absolute;
+  left: 1428px;
+  top: 38px;
+  overflow: visible;
+}
+.h-ome {
+  width: 1512px;
+  height: 656px;
+  position: absolute;
+  left: 0px;
+  top: 189px;
+  overflow: hidden;
+}
+.hello-myself {
+  color: #fffefe;
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  position: absolute;
+  left: 21px;
+  top: 61px;
+}
+.tekendra-bhandari {
+  color: #fffefe;
+  text-align: left;
+  font-family: "JacquesFrancoisShadow-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 21px;
+  top: 120px;
+}
+.i-m-a {
+  color: #fff5f5;
+  text-align: left;
+  font-family: "JejuMyeongjo-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 21px;
+  top: 229px;
+}
+.freelancer {
+  color: #07f3ff;
+  text-align: left;
+  font-family: "JejuMyeongjo-Regular", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  left: 135px;
+  top: 219px;
+}
+.a-dedicated-and-passionate-freelancer-from-dhangadhi-nepal-with-a-keen-eye-for-detail-and-a-love-for-creativity-i-specialize-in-graphic-design-web-development-content-writing-etc-my-mission-is-to-help-bring-your-vision-to-life-with-top-quality-work-and-a-commitment-to-excellence {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 21px;
+  top: 278px;
+  width: 608px;
+}
+.frame4 {
+  border-radius: 40px;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: 272px;
+  top: 443px;
+  overflow: visible;
+}
+.frame5 {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: 179px;
+  top: 443px;
+  overflow: visible;
+}
+.frame6 {
+  border-radius: 40px;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: 365px;
+  top: 443px;
+  overflow: visible;
+}
+.frame7 {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: 86px;
+  top: 443px;
+  overflow: visible;
+}
+.component-1 {
+  width: 428px;
+  height: 466px;
+  position: absolute;
+  left: 998px;
+  top: 11px;
+}
+.ellipse-1 {
+  background: #0affbe;
+  border-radius: 50%;
+  width: 95.38%;
+  height: 89.89%;
+  position: absolute;
+  right: 2.31%;
+  left: 2.31%;
+  bottom: 0%;
+  top: 10.11%;
+  filter: blur(14.15px);
+}
+.ellipse-2 {
+  background: #0affbe;
+  border-radius: 50%;
+  width: 95.38%;
+  height: 89.89%;
+  position: absolute;
+  right: 2.31%;
+  left: 2.31%;
+  bottom: 0%;
+  top: 10.11%;
+}
+.image {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.frame-2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 193px;
+  top: 63px;
+  overflow: hidden;
+}
+.frame-12 {
+  width: 1512px;
+  height: 771px;
+  position: absolute;
+  left: -7px;
+  top: 868px;
+  overflow: hidden;
+}
+.about-me {
+  background: #29183e;
+  width: 1512px;
+  height: 771px;
+  position: absolute;
+  left: 0px;
+  top: 111px;
+  box-shadow: 0px 4px 40px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.component-2 {
+  width: 428px;
+  height: 466px;
+  position: absolute;
+  left: 81px;
+  top: 66px;
+}
+.about-me2 {
+  color: #0affbe;
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  position: absolute;
+  left: 756px;
+  top: 117px;
+}
+.freelancer2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 756px;
+  top: 165px;
+}
+.welcome-to-my-professional-portfolio-i-am-tekendra-bhandari-a-passionate-freelancer-from-dhangadhi-nepal-with-a-strong-foundation-in-ui-ux-design-web-development-and-digital-marketing-i-bring-a-unique-blend-of-creativity-and-technical-expertise-to-every-project-my-goal-is-to-create-user-friendly-and-visually-appealing-digital-experiences-that-drive-results-explore-my-work-and-let-s-collaborate-onyour-next-project {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 756px;
+  top: 218px;
+  width: 714px;
+  height: 203px;
+}
+.see4 {
+  width: 128px;
+  height: 42px;
+  position: absolute;
+  left: 756px;
+  top: 490px;
+}
+.rectangle-10 {
+  background: #d9d9d9;
+  opacity: 0.01;
+  width: 101px;
+  height: 36px;
+  position: absolute;
+  left: 837px;
+  top: 33px;
+}
+.frame8 {
+  width: 60px;
+  height: 54px;
+  position: absolute;
+  left: 1439px;
+  top: 985px;
+  overflow: visible;
+}
+.home-default {
+  width: 66px;
+  height: 24px;
+  position: absolute;
+  left: 716px;
+  top: 40px;
+}
+.home5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
