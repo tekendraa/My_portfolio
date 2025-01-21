@@ -52,7 +52,7 @@
       </div>
     </nav>
 
-    <section id="home" class="h-ome">
+    <section id="home" class="h-ome" style="margin-top: 100px;">
       <div class="hello-myself">Hello Myself</div>
       <div class="tekendra-bhandari">Tekendra Bhandari</div>
       <div class="i-m-a">I’m a</div>
@@ -169,18 +169,34 @@
 
     <section id="contact" class="frame-1">
       <div class="contact-us">Contact Us</div>
-      <div class="rectangle-5"></div>
-      <div class="name">Name</div>
-      <img class="rectangle-6" src="rectangle-60.svg" />
-      <div class="rectangle-7"></div>
-      <div class="rectangle-8"></div>
-      <div class="rectangle-9"></div>
-      <div class="address">Address</div>
-      <div class="email-address">Email Address</div>
-      <div class="email-address2">Email Address</div>
-      <div class="your-comment">Your Comment</div>
-      <div class="mobile-no">Mobile no.</div>
-      <img class="frame3" src="frame2.svg" />
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">Mobile Number</label>
+          <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="Enter your address">
+        </div>
+
+        <div class="form-group">
+          <label for="comment">Your Comment</label>
+          <textarea id="comment" name="comment" rows="4" required placeholder="Enter your comment"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
     </section>
   </div>
 
