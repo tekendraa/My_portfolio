@@ -23,16 +23,17 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  position: fixed;
-  width: 100%;
-  top: 0;
+  padding: 1.5rem 2rem;
+  background-color: var(--primary-color);
   z-index: 1000;
-  background: rgba(36, 23, 49, 0.9);
-  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-links {
@@ -86,54 +87,63 @@ section {
   justify-content: center;
 }
 
-.contact-form {
+#contact-form {
   max-width: 600px;
-  margin: 0 auto;
-  display: grid;
-  gap: 1.5rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
-  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-color);
 }
 
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 8px;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: var(--primary-color);
   color: var(--text-color);
   font-size: 1rem;
-  transition: var(--transition);
 }
 
 .form-group textarea {
-  height: 150px;
-  resize: none;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--secondary-color);
-  background: rgba(255, 255, 255, 0.15);
+  resize: vertical;
+  min-height: 100px;
 }
 
 .submit-btn {
   background: var(--secondary-color);
   color: var(--primary-color);
   padding: 1rem 2rem;
-  border-radius: 40px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  font-weight: bold;
-  transition: var(--transition);
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.3s ease;
 }
 
 .submit-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(10, 255, 190, 0.3);
+  background: #0affbe;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
 }
 
 .portfolio {
@@ -618,15 +628,18 @@ section {
 }
 
 .h-ome {
-  width: 1512px;
-  height: 656px;
-  position: absolute;
-  left: 0px;
-  top: 189px;
-  overflow: hidden;
+  padding-top: 120px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .hello-myself {
+  margin-top: 2rem;
   color: #fffefe;
   text-align: left;
   font-family: "Inter-ExtraBold", sans-serif;

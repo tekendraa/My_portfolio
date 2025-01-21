@@ -54,3 +54,27 @@ contactForm.addEventListener('submit', async (e) => {
     alert('Thank you for your message! I will get back to you soon.');
     contactForm.reset();
 });
+
+// Handle contact form submission
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Get form values
+    const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        mobile: document.getElementById('mobile').value,
+        address: document.getElementById('address').value,
+        comment: document.getElementById('comment').value
+    };
+    
+    // Here you would typically send the data to a server
+    // For now, we'll just log it and show a success message
+    console.log('Form submitted:', formData);
+    
+    // Show success message
+    alert('Thank you for your message! We will get back to you soon.');
+    
+    // Clear the form
+    this.reset();
+});
