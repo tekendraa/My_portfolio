@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,22 +26,25 @@
       border: none;
       text-decoration: none;
       background: none;
-  
+
       -webkit-font-smoothing: antialiased;
     }
-  
-    menu, ol, ul {
+
+    menu,
+    ol,
+    ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
     }
   </style>
 </head>
+
 <body>
   <div class="theme-switch">
     <i class="fas fa-moon"></i>
   </div>
-  
+
   <div class="one">
     <nav class="navbar">
       <div class="logo">Berlin</div>
@@ -52,14 +56,14 @@
       </div>
     </nav>
 
+    ...
     <section id="home" class="h-ome" style="margin-top: 100px;">
       <div class="hello-myself">Hello Myself</div>
       <div class="tekendra-bhandari">Tekendra Bhandari</div>
       <div class="i-m-a">I’m a</div>
       <div class="freelancer">Freelancer</div>
       <div
-        class="a-dedicated-and-passionate-freelancer-from-dhangadhi-nepal-with-a-keen-eye-for-detail-and-a-love-for-creativity-i-specialize-in-graphic-design-web-development-content-writing-etc-my-mission-is-to-help-bring-your-vision-to-life-with-top-quality-work-and-a-commitment-to-excellence"
-      >
+        class="a-dedicated-and-passionate-freelancer-from-dhangadhi-nepal-with-a-keen-eye-for-detail-and-a-love-for-creativity-i-specialize-in-graphic-design-web-development-content-writing-etc-my-mission-is-to-help-bring-your-vision-to-life-with-top-quality-work-and-a-commitment-to-excellence">
         a dedicated and passionate freelancer from Dhangadhi, Nepal.
         <br />
         With a keen eye for detail and a love for creativity, I specialize
@@ -86,13 +90,51 @@
         <div class="component-2">
           <div class="ellipse-1"></div>
           <div class="ellipse-2"></div>
+        </div>
+        <button class="back-button" onclick="window.location='#home'">Back</button>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <button class="back-button" onclick="window.location='#home'">Back</button>
+      <!-- Services section content -->
+    </section>
+
+    <section id="contact" class="contact">
+      <button class="back-button" onclick="window.location='#home'">Back</button>
+      <!-- Contact section content -->
+    </section>
+
+    <style>
+      .back-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 10px 20px;
+        background-color: #ffcc00;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px #ffcc00;
+        transition: box-shadow 0.3s ease-in-out;
+      }
+
+      .back-button:hover {
+        box-shadow: 0 0 20px #ffcc00;
+      }
+    </style>
+    ...
+    <section id="about" class="frame-12">
+      <div class="about-me">
+        <div class="component-2">
+          <div class="ellipse-1"></div>
+          <div class="ellipse-2"></div>
           <img class="image" src="image1.png" />
         </div>
         <div class="about-me2">About Me</div>
         <div class="freelancer2">Freelancer</div>
         <div
-          class="welcome-to-my-professional-portfolio-i-am-tekendra-bhandari-a-passionate-freelancer-from-dhangadhi-nepal-with-a-strong-foundation-in-ui-ux-design-web-development-and-digital-marketing-i-bring-a-unique-blend-of-creativity-and-technical-expertise-to-every-project-my-goal-is-to-create-user-friendly-and-visually-appealing-digital-experiences-that-drive-results-explore-my-work-and-let-s-collaborate-onyour-next-project"
-        >
+          class="welcome-to-my-professional-portfolio-i-am-tekendra-bhandari-a-passionate-freelancer-from-dhangadhi-nepal-with-a-strong-foundation-in-ui-ux-design-web-development-and-digital-marketing-i-bring-a-unique-blend-of-creativity-and-technical-expertise-to-every-project-my-goal-is-to-create-user-friendly-and-visually-appealing-digital-experiences-that-drive-results-explore-my-work-and-let-s-collaborate-onyour-next-project">
           Welcome to my professional portfolio! I am Tekendra Bhandari,
           <br />
           a passionate freelancer from Dhangadhi, Nepal. With a strong
@@ -117,9 +159,10 @@
         <img class="web" src="web0.svg" />
         <div class="digital-marketing">Digital Marketing</div>
         <div
-          class="with-a-robust-background-in-digital-marketing-i-excel-at-crafting-strategies-that-drive-engagement-increase-brand-visibility-and-generate-leads-my-expertise-spans-various-aspects-of-digital-marketing-including-search-engine-optimization-seo-social-media-marketing-content-creation-and-paid-advertising-campaigns"
-        >
-          With a robust background in digital marketing, I excel at crafting strategies that drive engagement, increase brand visibility, and generate leads. My expertise spans various aspects of digital marketing, including search engine optimization (SEO), social media marketing, content creation, and paid advertising campaigns
+          class="with-a-robust-background-in-digital-marketing-i-excel-at-crafting-strategies-that-drive-engagement-increase-brand-visibility-and-generate-leads-my-expertise-spans-various-aspects-of-digital-marketing-including-search-engine-optimization-seo-social-media-marketing-content-creation-and-paid-advertising-campaigns">
+          With a robust background in digital marketing, I excel at crafting strategies that drive engagement, increase
+          brand visibility, and generate leads. My expertise spans various aspects of digital marketing, including
+          search engine optimization (SEO), social media marketing, content creation, and paid advertising campaigns
         </div>
         <div class="see">
           <div class="rectangle-1"></div>
@@ -131,8 +174,7 @@
         <div class="ui-ux-desin">UI/UX Design</div>
         <img class="vector" src="vector0.svg" />
         <div
-          class="i-specialize-in-crafting-user-centric-designs-that-balance-aesthetics-and-functionality-my-experience-spans-various-industries-allowing-me-to-create-tailored-solutions-that-meet-diverse-user-needs"
-        >
+          class="i-specialize-in-crafting-user-centric-designs-that-balance-aesthetics-and-functionality-my-experience-spans-various-industries-allowing-me-to-create-tailored-solutions-that-meet-diverse-user-needs">
           I specialize in crafting user centric
           <br />
           designs that balance aesthetics and
@@ -155,9 +197,11 @@
         <div class="web-development">Web Development</div>
         <img class="frame" src="frame0.svg" />
         <div
-          class="as-an-experienced-web-developer-i-specialize-in-building-responsive-and-high-performance-websites-i-am-proficient-in-a-range-of-programming-languages-and-frameworks-including-html-css-java-script-and-react-my-projects-span-various-industries-from-e-commerce-to-education-providing-tailored-solutions-that-meet-client-needs"
-        >
-          As an experienced web developer, I specialize in building responsive and high-performance websites. I am proficient in a range of programming languages and frameworks, including HTML, CSS, JavaScript, and React. My projects span various industries, from e-commerce to education, providing tailored solutions that meet client needs.
+          class="as-an-experienced-web-developer-i-specialize-in-building-responsive-and-high-performance-websites-i-am-proficient-in-a-range-of-programming-languages-and-frameworks-including-html-css-java-script-and-react-my-projects-span-various-industries-from-e-commerce-to-education-providing-tailored-solutions-that-meet-client-needs">
+          As an experienced web developer, I specialize in building responsive and high-performance websites. I am
+          proficient in a range of programming languages and frameworks, including HTML, CSS, JavaScript, and React. My
+          projects span various industries, from e-commerce to education, providing tailored solutions that meet client
+          needs.
         </div>
         <div class="see3">
           <div class="rectangle-1"></div>
@@ -174,7 +218,7 @@
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required placeholder="Enter your name">
         </div>
-        
+
         <div class="form-group">
           <label for="email">Email Address</label>
           <input type="email" id="email" name="email" required placeholder="Enter your email">
@@ -202,4 +246,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
